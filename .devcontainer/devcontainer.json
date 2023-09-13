@@ -1,0 +1,21 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+{
+	"name": "pymesh",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"codespaces": {
+			"openFiles": [
+				"test.R"
+			]
+		},
+		"vscode": {
+			"extensions": [
+				"REditorSupport.r",
+				"CFD-GO.tclb-helper"
+			]
+		}
+	}
+}
